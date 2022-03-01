@@ -196,7 +196,7 @@ const workExperiences = {
   };
 
   const workExperiences2 = {
-    display: true, //Set it to true to show workExperiences Section
+    display: false, //Set it to true to show workExperiences Section
     experience: [
       {
         role: ["중고등 수학조교","(MathEducation Assistant)"],
