@@ -84,7 +84,7 @@ https://fontawesome.com/icons?d=gallery */
         fontAwesomeClassname: "fab fa-android"
       },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 
@@ -125,7 +125,7 @@ const skillsSection2 = {
         fontAwesomeClassname: "fas fa-file-lines"
       },
     ],
-    display: true
+    display: false
 }
 
 
@@ -156,7 +156,7 @@ const educationInfo = {
 
 
 const workExperiences = {
-    display: true, //Set it to true to show workExperiences Section
+    display: false, //Set it to true to show workExperiences Section
     experience: [
       {
         role: "서버관리자(HP-UX Server Administer)",
@@ -293,7 +293,7 @@ const bigProjects = {
       },
   ],
  
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
   
 };
 
@@ -305,6 +305,7 @@ const contactInfo = {
     ],
     number: "010-3901-5700",
     email_address: "bamjin_e@protonmail.com"
+    ,display=true
   };
   
 
