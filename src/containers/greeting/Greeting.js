@@ -40,14 +40,14 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
+                {greeting.portfolioLink1 && (
                   <Button
                     text="개발자 포트폴리오"
                     newTab={true}
                     href={greeting.portfolioLink1}
                   />
                 )}
-                {greeting.resumeLink && (
+                {greeting.portfolioLink2 && (
                   <Button
                     text="강사 포트폴리오"
                     newTab={true}
