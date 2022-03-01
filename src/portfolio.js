@@ -19,7 +19,7 @@ const greeting = {
       "BEOMJIN"],
   subTitle: 
   [
-      "끊임없이 발전하는 ",
+      "끊임없이 발전하고 노력하는 ",
       "개발자&수학강사 김범진입니다",
   ],
   resumeLink:"",
