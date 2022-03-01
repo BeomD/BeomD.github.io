@@ -305,7 +305,8 @@ const contactInfo = {
     ],
     number: "010-3901-5700",
     email_address: "bamjin_e@protonmail.com"
-    ,display=true
+    ,
+    display:true
   };
   
 
