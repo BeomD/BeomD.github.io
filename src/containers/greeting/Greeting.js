@@ -42,14 +42,14 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.portfolioLink1 && (
                   <Button
-                    text="개발자 포트폴리오"
+                    text="개발자"
                     newTab={true}
                     href={greeting.portfolioLink1}
                   />
                 )}
                 {greeting.portfolioLink2 && (
                   <Button
-                    text="강사 포트폴리오"
+                    text="강사"
                     newTab={true}
                     href={greeting.portfolioLink2}
                   />
