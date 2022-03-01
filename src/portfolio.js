@@ -124,7 +124,7 @@ const skillsSection2 = {
         fontAwesomeClassname: "fas fa-file-lines"
       },
     ],
-    display: false
+    display: true
 }
 
 
@@ -155,7 +155,7 @@ const educationInfo = {
 
 
 const workExperiences = {
-    display: false, //Set it to true to show workExperiences Section
+    display: true, //Set it to true to show workExperiences Section
     experience: [
       {
         role: "서버관리자(HP-UX Server Administer)",
