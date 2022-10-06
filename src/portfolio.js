@@ -288,7 +288,7 @@ const bigProjects = {
         image: require("./assets/images/denpic.png"),
         projectName: "DENPIC",
         projectDesc: [
-            "Kotlin기반 안드로이드 앱 개발 진행중",
+            "Kotlin기반 Jetpack Compose 안드로이드 앱 개발",
           ], 
       },
   ],
@@ -301,7 +301,7 @@ const bigProjects = {
 const contactInfo = {
     title: emoji("연락처"),
     subtitle:[
-      "언제든지 일할 준비가 되어있습니다. ",
+      "연락처",
     ],
     number: "010-8418-5886",
     email_address: "bamjin204@gmail.com"
