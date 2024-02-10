@@ -158,30 +158,18 @@ const educationInfo = {
 const workExperiences = {
     display: false, //Set it to true to show workExperiences Section
     experience: [
-      {
-        role: "서버관리자(HP-UX Server Administer)",
-        company: "대한민국공군(ROKAF)",
-        companylogo: require("./assets/images/facebookLogo.png"),
-        date: "Feb 2018 – July 2019",
-        desc: "공군 방공관제사 예하 체계운영반장",
-        descBullets: [
-          "체계운영실 서버복구조장",
-          "체계운영실 서버업데이트 등 임명수행"
-        ]
-      },
-      {
-        role: ["전자중대장","(Commander of electrical and electronic)"],
-        company: "대한민국공군(ROKAF)",
-        companylogo: require("./assets/images/airbnbLogo.png"),
-        date: "July 2019 – Nov 2020",
-        desc: "8145부대 전자중대장",
-        descBullets: [
-          "중대장, 암호장비관리책임관 등 임명수행",
-          "8145부대 정훈장교",
-          "표준화평가 지도방문 수감유공(`20. 6.)",
-          "중위 만기전역('20. 11. 30)",
-        ]
-      },   
+        {
+            role: "체계운영반장 및 전자중대장",
+            company: "대한민국공군(ROKAF)",
+            companylogo: require("./assets/images/facebookLogo.png"),
+            date: "Dec 2017 – Nov 2020",
+            desc: "공군 방공관제사 예하 정보통신장교",
+            descBullets: [
+              "체계운영실 서버복구조장",
+              "체계운영실 서버업데이트 등 임명수행",
+              "8145부대 전자중대장"
+            ]
+          },
       {
         role: ["SW개발자","(Software Developer)"],
         company: "위노아이(WINOI)",
@@ -190,6 +178,16 @@ const workExperiences = {
         desc: "서울 서대문구 연세로2나길61",
         descBullets: [
           "Kotlin기반 Android 개발자",
+      ]
+      },
+      {
+        role: ["코어금융부 글로벌금융팀","(Intern)"],
+        company: "한국산업은행(KDB))",
+        companylogo: require("./assets/images/kdb.png"),
+        date: "2023 ~ 재직중",
+        desc: "서울특별시 영등포구 은행로14",
+        descBullets: [
+          "글로벌 금융팀 코어금융, 정보화사업 등 업무보조",
       ]
       },
     ]
