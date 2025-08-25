@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - main  # main 브랜치에 push될 때 실행
-
+permissions:
+  contents: write   # ✅ GitHub Pages 배포를 위해 꼭 필요
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
